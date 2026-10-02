@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=Neovim Note URL Handler
+Comment=Open neovim-note:// links in kitty+nvim at a specific line
+Exec=/home/junyi/.local/bin/uri-open.sh %u
+Type=Application
+NoDisplay=true
+MimeType=x-scheme-handler/neovim-note;

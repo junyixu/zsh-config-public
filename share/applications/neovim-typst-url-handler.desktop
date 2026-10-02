@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=Neovim Typst URL Handler
+Comment=Open neovim-typst:// links in kitty+nvim and auto-start TypstPreview
+Exec=/home/junyi/.local/bin/uri-open.sh %u
+Type=Application
+NoDisplay=true
+MimeType=x-scheme-handler/neovim-typst;
