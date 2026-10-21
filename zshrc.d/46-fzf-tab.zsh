@@ -1,8 +1,8 @@
 # fzf-tab 必须在 compinit 后, fsh 前; fsh 必须最后
 zinit light-mode for \
-    wait'2' lucid \
+    wait'1' lucid \
         Aloxaf/fzf-tab \
-    wait'3' lucid \
+    wait'2' lucid \
         zdharma-continuum/fast-syntax-highlighting
 
 # fzf-tab

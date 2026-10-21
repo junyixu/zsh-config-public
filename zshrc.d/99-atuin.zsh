@@ -4,7 +4,7 @@
 # atload 内追加 \e[25~ -> autosuggest-accept (kitty.conf 把 Ctrl+i 重映射为 \e[25~ = F13),
 # 必须在 widget 注册后再 bindkey, 否则 fast-syntax-highlighting 扫描时报
 # `unhandled ZLE widget 'autosuggest-accept'`.
-zinit ice wait'2' lucid atload'_zsh_autosuggest_start
+zinit ice wait'1' lucid atload'_zsh_autosuggest_start
   bindkey -M viins "\e[25~" autosuggest-accept
   bindkey -M emacs "\e[25~" autosuggest-accept'
 zinit light zsh-users/zsh-autosuggestions
